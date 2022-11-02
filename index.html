@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <div class="balance">
+          <div class="balance__sum">
+            <p>My balance</p>
+            <h1>$921.48</h1>
+          </div>
+          <div class="balance__logo">
+            <img src="/images/logo.svg" alt="" />
+          </div>
+        </div>
+        <div class="overview">
+          <h2>Spending - Last 7 days</h2>
+          <div class="overview__days">
+            <div class="blocks block1">
+              <div class="hover">$</div>
+              <div class="size"></div>
+              <p>mon</p>
+            </div>
+            <div class="blocks block2">
+              <div class="hover">$</div>
+              <div class="size"></div>
+              <p>tue</p>
+            </div>
+            <div class="blocks block3">
+              <div class="hover">$</div>
+              <div class="size"></div>
+              <p>wed</p>
+            </div>
+            <div class="blocks block4">
+              <div class="hover">$</div>
+              <div class="size"></div>
+              <p>thu</p>
+            </div>
+            <div class="blocks block5">
+              <div class="hover">$</div>
+              <div class="size"></div>
+              <p>fri</p>
+            </div>
+            <div class="blocks block6">
+              <div class="hover">$</div>
+              <div class="size"></div>
+              <p>sat</p>
+            </div>
+            <div class="blocks block7">
+              <div class="hover">$</div>
+              <div class="size"></div>
+              <p>sun</p>
+            </div>
+          </div>
+          <div class="total">
+            <div class="total__month">
+              <p>Total this month</p>
+              <h1>$<span class="total__sum" id="sum">00.00</span></h1>
+            </div>
+            <div class="total__increase">
+              <p>+2.4%</p>
+              <p>from last month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
