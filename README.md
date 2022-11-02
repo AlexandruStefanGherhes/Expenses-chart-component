@@ -60,7 +60,7 @@ Mobile version Completed
 - CSS Flexbox
 - CSS Grid
 - Mobile-first workflow
-- Bootstrap
+
 
 ### Continued development
 
