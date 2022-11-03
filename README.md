@@ -47,8 +47,8 @@ Mobile version Completed
 
 ### Links
 
-- Solution URL: [Code on GitHub](https://github.com/AlexandruStefanGherhes/Interactive-card-details-form.git)
-- Live Site URL: [Vercel Live URL](https://interactive-card-details-form-peach.vercel.app/)
+- Solution URL: [Code on GitHub](https://github.com/AlexandruStefanGherhes/Expenses-chart-component.git)
+- Live Site URL: [Vercel Live URL](https://expenses-chart-component-neon.vercel.app/)
 
 ## My process
 
@@ -60,7 +60,7 @@ Mobile version Completed
 - CSS Flexbox
 - CSS Grid
 - Mobile-first workflow
-- Bootstrap
+
 
 ### Continued development
 
