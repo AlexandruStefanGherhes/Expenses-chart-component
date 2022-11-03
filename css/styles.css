@@ -172,16 +172,45 @@ body .container .total__increase p:last-child {
 
 @media screen and (min-width: 1200px) {
   .main .container {
-    width: 420px;
+    width: 450px;
+    height: 550px;
   }
   .main .container .balance__logo {
     width: 15%;
   }
-  .main .container .overview__days .blocks .size {
-    width: 45px;
+  .main .container .overview {
+    height: 400px;
   }
-  .main .container .overview__days .blocks .hover {
+  .main .container .overview .overview__days .blocks p {
+    font-size: 18px;
+  }
+  .main .container .overview .overview__days .blocks .size {
+    width: 50px;
+  }
+  .main .container .overview .overview__days .blocks .hover {
     width: 55px;
     font-size: 16px;
+  }
+  .main .container .total {
+    padding-top: 35px;
+    padding-bottom: 25px;
+  }
+  .main .container .total:before {
+    margin-top: 10px;
+  }
+  .main .container .total .total__month p {
+    font-size: 18px;
+  }
+  .main .container .total .total__month h1 {
+    font-size: 50px;
+  }
+  .main .container .total .total__increase {
+    padding-top: 20px;
+  }
+  .main .container .total .total__increase p:first-child {
+    font-size: 20px;
+  }
+  .main .container .total .total__increase p:last-child {
+    font-size: 18px;
   }
 }/*# sourceMappingURL=styles.css.map */
